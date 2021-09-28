@@ -31,7 +31,7 @@
         width: 100%;
       }
       .mapboxgl-popup {
-        max-width: 400px;
+        max-width: 450px;
 	-webkit-filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.6));
         filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.6));
         font: 12px/20px 'Roboto Condensed', Arial, Helvetica, sans-serif;
@@ -157,7 +157,7 @@
 	    //const Outcomes = e.features[0].state['Outcomes'];
 	    //const PnP =  e.features[0].state['PnP'];
 	    //const Finance =  e.features[0].state['Finance'];
-            popup.trackPointer().setHTML('<h4><strong><center>'+Country+'</h4></strong></center><br><i>'+Description+'</i>Analysis: ').addTo(map)
+            popup.trackPointer().setHTML('<h4><strong><center>'+Country+'</h4></strong></center><br><i>'+Description+'</i><br>Analysis: ').addTo(map)
           }
           //handles everything else
           else{
