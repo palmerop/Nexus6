@@ -41,12 +41,6 @@
   </head>
 
   <body>
-    //<style>
-      //.mapboxgl-popup {
-       // max-width: 400px;
-     //   font: 12px/20px "Roboto Condensed", Arial, Helvetica, sans-serif;
-    //  }
-   // </style>
 
     <div id="map"></div>
 
@@ -137,7 +131,7 @@
             });
 
             const popup = new mapboxgl.Popup({
-             closeButton: true,
+             closeButton: false,
             closeOnClick: false
             });
         map.on('mousemove', (e) => {
